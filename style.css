@@ -1,0 +1,175 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 44px 0 144px 76px;
+}
+
+.link-header {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989D9C;
+    margin-right: 23px;
+    cursor: pointer;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+.link-header:hover {
+    color: #665AE1;
+}
+
+.link-header:active {
+    opacity: 0.2;
+}
+
+.button-header {
+    border-radius: 20px;
+    width: 130px;
+    height: 41px;
+    color: #ffffff;
+    background-color: #665AE1;
+    border: none;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.button-header:active {
+    opacity: 0.4;
+}
+
+.logo-img {
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+.section {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1 {
+    width: 513px;
+    height: 122px;
+    color: #515151;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+}
+
+h1::first-letter {
+    color: #665AE1;
+}
+
+h2 {
+    width: 448px;
+    height: 71px;
+    line-height: 71px;
+    font-weight: 500;
+    font-size: 58px;
+    color: #515151;
+    text-transform: capitalize;
+
+}
+
+p {
+    width: 515px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #848484;
+    margin: 32px 0;
+}
+
+.button-section {
+    width: 239px;
+    height: 64px;
+    border-radius: 50px;
+    background: #ADFF00;
+    border: none;
+    color: #000000;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    text-transform: uppercase;
+    cursor: pointer;
+    filter: box-shadow 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.button-section:active {
+    opacity: 0.4;
+}
+
+footer {
+    text-align: center;
+    margin: 70px 0 30px 0;
+    color: #848484;
+}
+
+hr {
+    margin-bottom: 30px;
+    color: #848484;
+}
+
+@media screen and (max-width:900px) {
+
+    header {
+        display: none;
+    }
+
+    p {
+        display: none;
+    }
+
+   .logo-img {
+        height: 70%;
+        margin: 90px 22px 0 21px;
+        width: 90%;
+        display: block;
+    }
+
+    h1 {
+        font-size: 50px;
+        line-height: 61px;
+        width: auto;
+        height: auto;
+        display: block;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 30px;
+        line-height: 36px;
+        width: auto;
+        height: auto;
+        margin: 7px 0 17px 0;
+        display: block;
+        text-align: center;
+    }
+
+    .section {
+        margin: 0 auto;
+        display: block;
+        max-width: 90%;
+        height: 30%;
+    }
+
+    .button-section {
+        display: block;
+        margin: 0 auto;
+        
+    }
+
+
+
+}
